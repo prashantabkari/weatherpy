@@ -17,7 +17,7 @@ def get_weather(api_key, location):
 @app.route('/')
 def get_weather_details():
     location = 'Melbourne'
-    api_key = '2fd76f4038d13d58e2b356cdfd7e8ed9'
+    api_key = ''
 
     weather = get_weather(api_key, location)
 
